@@ -8,13 +8,13 @@ const Navbar = () => {
   const location = useLocation();
 
   const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Services', path: '/services' },
-    { name: 'Portfolio', path: '/portfolio' },
-    { name: 'Testimonials', path: '/testimonials' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Contact', path: '/contact' },
+    { name: 'Home', path: '/kavyata/' },
+    { name: 'About', path: '/kavyata/about' },
+    { name: 'Services', path: '/kavyata/services' },
+    { name: 'Portfolio', path: '/kavyata/portfolio' },
+    { name: 'Testimonials', path: '/kavyata/testimonials' },
+    { name: 'Blog', path: '/kavyata/blog' },
+    { name: 'Contact', path: '/kavyata/contact' },
   ];
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const Navbar = () => {
             to="/"
             className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent"
           >
-            <img src='../kavyata_w.svg'/>
+            <img src='kavyata_w.svg'/>
           </Link>
 
           {/* Desktop Navigation */}

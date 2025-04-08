@@ -41,7 +41,7 @@ const HeroSection = () => {
                 Get Started
                 <ArrowRight size={18} className="ml-2" />
               </Button>
-              <Button variant="outline" size="lg" href="/services">
+              <Button variant="outline" size="lg" href="/kavyata/services">
                 Our Services
               </Button>
             </div>
