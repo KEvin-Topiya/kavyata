@@ -65,7 +65,7 @@ const Footer = () => {
         {/* Footer Bottom Section */}
         <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} TechNova. All rights reserved.
+            © {new Date().getFullYear()} Develop by Kevin Topiya. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <span className="text-gray-500 text-sm hover:text-gray-400 cursor-pointer">Privacy Policy</span>
